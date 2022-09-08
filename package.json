@@ -5,7 +5,8 @@
   "main": "lib.js",
   "scripts": {
     "test": "jest --useStderr --runInBand",
-    "build": "rollup -c rollup.config.js"
+    "build": "rollup -c rollup.config.js",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
